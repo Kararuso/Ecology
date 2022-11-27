@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        
+
+        <title>ЭкоЗнание</title>
+
+        <link rel="shortcut icon" href="./img/Logo.png" type="image/png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;800&family=Montserrat:wght@600;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">       
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                    <img class="logo_OWL" src="img/logo.png" alt="OWL Logistics">
+                    <nav>
+                        <a class="nav_link" href="#ecology_info">Главная</a>
+                        <a class="nav_link" href="#form">Вступить в сообщество</a>
+                        <a class="nav_link" href="#news">Новости</a>
+                        <a class="nav_link" href="#trash_info">Пункты приема мусора</a>
+                    </nav>
+                    <div class="pusto"></div>
+            </header>
+            
+            <section id="welcome">
+                
+                <div id="welcome_content">
+                    <div id="welcome_title">
+                        <h1>Быть <span style="color: #FF0000;">супергероем</span> просто - ДОСТАточно оберегать нашу природу!</h1>
+
+                        <h1>На нашем сайте вы узнаете как делать это правильно</h1>
+                    </div>
+                    
+                    <div id="welcome_news">
+                        <h3 onclick="window.location.href='#news'">Новости</h3>
+
+                        <article class="header_news" onclick="window.location.href='#news'">
+                            <a><img src="./img/2022-07-08-01.png" alt="Пункт обмена" ></a>
+                            <div>
+                                <time datetime="2021-07-24">8 июля 2022 г.</time>
+                                <p>В Ленобласти можно будет сдавать одежду и книги в пункты обмена</p>
+                            </div>
+                        </article>
+
+                        <article class="header_news" onclick="window.location.href='#news'">
+                            <img src="./img/2022-06-24-01.png" alt="Экоцентр">
+                            <div>
+                                <time datetime="2021-10-06">24 июня 2022 г.</time>
+                                <p>«Пятёрочка» и проект «Сборка» открыли экоцентр в Петербурге</p>
+                            </div>
+                        </article>
+
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <section id="ecology_info">
+                <h1>Глобальные экологические проблемы человечества</h1>
+                <section>
+                    <div class="info_icon">
+                        <div>
+                            <img src="./img/info_1.png" alt="Глобальное потепление">
+                            <p>Глобальное потепление</p>
+                        </div>
+                        <div>
+                            <img src="./img/info_2.png" alt="Разрушение озонового слоя">
+                            <p>Разрушение озонового слоя</p>
+                        </div>
+                    </div>
+                    <div class="info_icon">
+                        <div>
+                            <img src="./img/info_3.png" alt="Загрязнение мирового океана">
+                            <p>Загрязнение мирового океана</p>
+                        </div>
+                        <div>
+                            <img src="./img/info_4.png" alt="Загрязнение воздуха">
+                            <p>Загрязнение воздуха</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="info_icon">
+                        <div>
+                            <img src="./img/info_5.png" alt="Опустынивание">
+                            <p>Опустынивание</p>
+                        </div>
+                        <div>
+                            <img src="./img/info_6.png" alt="Уменьшение биоразнообразия">
+                            <p>Уменьшение биоразнообразия</p>
+                        </div>
+                    </div>
+                    <div class="info_icon">
+                        <div>
+                            <img src="./img/info_7.png" alt="Истощение природных ресурсов">
+                            <p>Истощение природных ресурсов</p>
+                        </div>
+                        <div>
+                            <img src="./img/info_7.png" alt="Уничтожение тропических лесов">
+                            <p>Уничтожение тропических лесов</p>
+                        </div>
+                    </div>
+                </section>
+                
+            </section>
+
+
+            <section id="form">
+                
+                <div id="form_content">
+                    <h2 id="form_h2">Оставьте заявку на вступление в наше эко-сообщество </h2>
+                    <p>Для больших дел всегда нужны герои. Присоединяйся к нам!</p>
+                    <form action="#" id="formRequest" class="formRequest_body">
+                        <section>
+                            <div>
+                                <span>Место забора</span>
+                                <img src="./img/arrow_up.svg" alt="">
+                            </div>
+                            <input type="text" class="form_input _req" name="port" placeholder="Порт">
+                        </section>
+                        <section>
+                            <div>
+                                <span>Место доставки</span>
+                                <img src="./img/arrow_down.svg" alt="">
+                            </div>
+                            <input type="text" class="form_input _req" name="place" placeholder="Место назначения">
+                        </section>
+                        <section>
+                            <div>
+                                <span>Габариты груза</span>
+                                <img src="" alt="">
+                            </div>
+                            <input type="text" class="form_input _req" name="size" placeholder="Напишите габариты">
+                        </section>
+                        <section>
+                            <div>
+                                <span>Электронная почта</span>
+                                <img src="" alt="">
+                            </div>
+                            <input type="text" class="form_input _req _email" name="email" placeholder="yourname@mail.com">
+                        </section>
+                        <section>
+                            <div>
+                                <span>Номер телефона</span>
+                                <img src="" alt="">
+                            </div>
+                            <input type="tel" class="form_input _req" name="telephone" placeholder="+7(999)9999999">
+                        </section>
+                        <button type="submit">Получить предложение</button>
+                    </form>
+                </div>
+            </section>
+            <!-- <p style="text-indent: 50px;"> -->
+            <section id="trash_info">
+                <h2 >Пункты приёма раздельного мусора</h2>
+                <p>
+                    Для того чтобы улучшить экологию нужно в первую очередь начать с себя. 
+                    Самое простое что вы можете сделать - придерживаться философии раздельного мусора. 
+                    Специально для вас мы подобрали места в нашем городе где принимают большое количество разных видов мусора.
+                </p>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A15ae27c78f00d57660e39960aaef86f791e8e7a811be5ea4a6c0f0ddf2ce4ef5&amp;source=constructor" 
+                width="655" height="498" frameborder="0">
+                </iframe>
+            </section>
+
+
+            <section id="trash_type">
+                <h1>Виды мусора</h1>
+                <section>
+                    <div class="trash_icon">
+                        <div>
+                            <img src="img/type_trash_1.png" alt="Глобальное потепление">
+                            <p>Пластик</p>
+                        </div>
+                        <div>
+                            <img src="img/type_trash_2.png" alt="Разрушение озонового слоя">
+                            <p>Батарейки</p>
+                        </div>
+                    </div>
+                    <div class="trash_icon">
+                        <div>
+                            <img src="img/type_trash_3.png" alt="Загрязнение мирового океана">
+                            <p>Металл</p>
+                        </div>
+                        <div>
+                            <img src="img/type_trash_4.png" alt="Загрязнение воздуха">
+                            <p>Бумага</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="trash_icon">
+                        <div>
+                            <img src="img/type_trash_5.png" alt="Опустынивание">
+                            <p>Стекло</p>
+                        </div>
+                        <div>
+                            <img src="img/type_trash_6.png" alt="Уменьшение биоразнообразия">
+                            <p>Лампочки</p>
+                        </div>
+                    </div>
+                    <div class="trash_icon">
+                        <div>
+                            <img src="img/type_trash_7.png" alt="Истощение природных ресурсов">
+                            <p>Шины</p>
+                        </div>
+                        <div>
+                            <img src="img/type_trash_8.png" alt="Уничтожение тропических лесов">
+                            <p>Опасные отходы</p>
+                        </div>
+                    </div>
+                </section>
+                
+            </section>
+        
+            <section id="news">
+                <h2>Новости</h2>
+
+                <article>
+                    <img src="./img/2022-07-08-01.png" alt="Пункт обмена">
+                    <div>
+                        <time datetime="2021-07-24">24 июля 2021 г.</time>
+                        <p>
+                            Пункты обмена одеждой и книгами появятся в Ленобласти. Об этом сообщил портал ivbg.ru.
+
+                            Помимо контейнеров для сбора одежды появятся фандоматы, в которые можно будет сдавать пластиковые бутылки и алюминиевые банки. 
+                            Кроме того, более тысячи контейнеров для раздельного сбора мусора установят в ленинградских дворах.
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="./img/2022-06-24-01.png" alt="Экоцентр">
+                    <div>
+                        <time datetime="2021-10-06">6 октября 2021 г.</time>
+                        <p>Торговая сеть «Пятёрочка» и проект «Сборка» провели официальное открытие второго совместного экоцентра. 
+                            Санкт-Петербург был выбран в результате национального голосования участников программы «Сохраним планету вместе: пятёрка зеленых дел».</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <footer>
+                <div class="footer_content">
+                    <p id="green_footer">Вступить в сообщество</p>
+                    <p>Новости</p>
+                    <p>Пункты приёма раздельного мусора</p>
+                </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>
